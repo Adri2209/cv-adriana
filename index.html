@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV BOOTSTRAP</title>
+</head>
+
+<body>
+    <header class="navbar-expand-sm ">
+        <nav class="navbar m-3 navbar-expand-lg navbar-dark bg-light">
+            <div class="text-center ms-2">
+                <a class="navbar-brand" href="#"> <img class="img-responsive mx-auto"
+                        src="assets/images/logo-accueil.png" width="80px"></a>
+                <p id="welcome">Accueil</p>
+            </div>
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="mx-auto collapse row justify-content-between navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-around  mx-auto mb-2 mb-lg-0">
+                        <li class=" nav-item active">
+                            <a class="nav-link " href="#"> A propos<span class="sr-only"></a>
+                        </li>
+                        <li class=" nav-item">
+                            <a class="nav-link" href="competences.html">Compétences & Parcours</a>
+                        </li>
+                        <li class="light nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <form action="">
+                <button onclick="dark()" type="button">Valider</button>
+                <button onclick="traduction()" type="button">Traduction</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title-index" class="animation">Développeuse Web</h1>
+        <div class="test d-flex text-center justify-content-between change-color-hover nav-pills topmenu">
+            <a class="navbar-brand mx-auto" href="#">
+                <div>
+                    <img class=" pulse-grow img-fluid" src="assets/images/logo-front-end.png" width="100px">
+                    <p class="change-color-hover text-color">front-end</p>
+                </div>
+            </a>
+            <a class="navbar-brand mx-auto" href="#">
+                <div>
+                    <img class="pulse-grow img-fluid" src="assets/images/logo-back-end.png" width="80px">
+                    <p class="change-color-hover text-color">back-end</p>
+                </div>
+            </a>
+            <a class="navbar-brand mx-auto" href="#">
+                <div>
+                    <img class=" pulse-grow img-fluid" src="assets/images/logo-mobile.png" width="65px">
+                    <p class="change-color-hover text-color">mobile</p>
+                </div>
+            </a>
+            <a class="navbar-brand mx-auto " href="#">
+                <div>
+                    <img class=" pulse-grow img-fluid" src="assets/images/logo-design.png" width="80px">
+                    <p class="change-color-hover text-color">web-design</p>
+                </div>
+            </a>
+            <a class="navbar-brand mx-auto " href="#">
+                <div>
+                    <img class=" pulse-grow img-fluid" src="assets/images/logo-terre.png" width="80px">
+                    <p id="roumain" class="change-color-hover text-color">roumain/anglais</p>
+                </div>
+            </a>
+        </div>
+
+        <section class="container-fluid">
+            <h2 id="presentation" class=" anim-deux text-center">A propos de moi</h2>
+            <div class="row align-items-start mt-5">
+                <article class="d-flex flex-column justify-content-center  col-lg-6">
+                    <p id="paragraphe" class="align-middle offset-2">Développeuse web junior, je recherche un emploi
+                        après avoir passé
+                        9
+                        mois en formation dans le centre de formation
+                        RI7.
+                        <br>
+                        Cette formation à été complétée par un stage de 3 mois en entreprise ce qui m'as permis de
+                        mettre en application les connaissances acquises.
+                        <br>
+                        Après avoir passé 15 ans en tant qu'assistante
+                        comptable, j’ai choisi de me
+                        reconvertir professionnellement dans le métier de développeur web.
+                        <br>
+                        Désireuse d'apprendre et étant toujours à la
+                        recherche de nouvelles technologies en terme de codage ainsi que l'inovation et la création je
+                        relève
+                        le défi de satisfaire la demande client en mettant toutes mes connaisances et mon savoir faire à
+                        votre disposition.
+                        <br>
+                        Autonome de nature, je peux travailler seule ou en
+                        groupe, étant également capable de m’adapter à un environnement que je ne connais pas.
+                        <br>
+                        L’optimisation du code fait partie de mes priorités.
+                    </p>
+                </article>
+                <article class="d-flex flex-column col-lg-6 text-end">
+
+                    <div class="row align-middle col-lg-10 navbar-brand text-end" href="#"><a href="#"><img
+                                class=img-fluid src="assets/images/avatar-femme.png" width="300px"></a>
+                        <article class="text-end ">
+                            <p id="name">Nom : Adriana TINT</p>
+                            <P id="name">Age : 43 ans</P>
+                            <p id="name">Ville actuelle : Marseille</p>
+                            <p id="name">Hobbies : web-design, footing, lecture, cuisine</p>
+                        </article>
+                    </div>
+                </article>
+                <article class="hvr-curl-top-left justify-item-start">
+                    <div id="competences">
+                        <a href="competences.html" class="text-decoration-none">
+                            <h3 id="compet" class="border border-3 rounded-pill">Compétences</h3>
+                            <div class="col-6 col-lg-4 text-center" href="#"><img class=img-fluid
+                                    src="assets/images/competence.png" width="300px">
+                        </a>
+                    </div>
+                </article>
+                <article class="justify-item-center">
+                    <div id="parcours">
+                        <a href="competences.html" class="text-decoration-none">
+                            <h3 id="journey" class="border border-3 rounded-pill">Parcours</h3>
+                            <div class="col-6 col-lg-4 text-center" href="#"><img class=img-fluid
+                                    src="assets/images/parcours.png" width="300px">
+                        </a>
+                    </div>
+                </article>
+                <article class="mx-auto">
+                    <div id="contact" class="text-end">
+                        <a href="contact.html" class="text-decoration-none">
+                            <h3 class="mx-auto border col-4 border-3 rounded-pill">Contact</h3>
+                            <div class="mx-auto col-6 col-8 text-center" href="#"><img class=img-fluid
+                                    src="assets/images/contact.png" width="300px">
+                        </a>
+                    </div>
+                </article>
+
+                <section class="container">
+                    <article class="d-flex justify-content-around">
+                        <button id="button" class="btn color-violet rounded-pill text-center mb-2" type="button"><a
+                                class="text-light" target=”_blank href="contact.html">
+                                <href="#">ME CONTACTER
+                            </a></button>
+
+                        <button id="cv" class="btn color-violet rounded-pill text-center mb-2 " type="button"><a
+                                class="text-light" target=”_blank href="assets/files/Adrianatint.pdf">TELECHARGER MON
+                                CV</a></button>
+                    </article>
+                </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div id="footer" class="col-sm-6 col-md-3 text-center item">
+                            <h3 class="mx-auto">Divers</h3>
+                            <ul>
+                                <li><a id="modif" href="#">Langue parlé: roumain</a></li>
+                                <li><a id="voiture" href="#">Permis B</a></li>
+                            </ul>
+                        </div>
+                        <div id="footer" class="col-sm-6 col-md-3 text-center item">
+                            <h3 class="mx-auto">Maitrise</h3>
+                            <ul>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">BOOTSTRAP</a></li>
+                                <li><a href="#">JAVASCRIPT</a></li>
+                                <li><a href="#">SAGE</a></li>
+                                <li><a href="#">E-FAKTO</a></li>
+                            </ul>
+                        </div>
+                        <div id="footer" class="col-sm-6 col-md-3 text-center item">
+                            <h3 class="mx-auto">Adresse</h3>
+                            <p>141 Avenue de Saint Menet</p>
+                            <p>Domaine de la Raynarde Bât C2 Appt 09</p>
+                            <P>13011 Marseille</P>
+                        </div>
+                        <div id="footer" class="col-sm-6 col-md-3 text-center item">
+                            <h3 class="mx-auto">Coordonées</h3>
+                            <ul>
+                                <li><a id="phone" href="#">Téléphone: 06.12.31.08.74</a></li>
+                                <li><a id="mail" href="#">Mail: adrianasaroux@yahoo.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col item social mt-5">
+                            <a target="_blank" href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></a>
+                            <a target="_blank" href="https://twitter.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></a>
+                            <a target="_blank" href="https://www.snapchat.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-snapchat"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1.416 1.416 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.387 3.387 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.338.338 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.397 1.397 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.829 1.829 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.294 4.294 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0c-.92 0-1.76.216-2.505.641-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.83 1.83 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.398 1.398 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.38.38 0 0 1 .109.11c.026.053.027.11-.012.217a3.363 3.363 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075.119.125.257.23.409.31a4.43 4.43 0 0 0 1 .4.66.66 0 0 1 .202.09c.118.104.102.26.259.488.079.118.18.22.296.3.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.625.625 0 0 1 .19-.087 4.446 4.446 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047Zm-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082-1.519 0-2.045-.801-2.904-1.084-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a.93.93 0 0 1 .197.022c.396.086.78.285 1.002.338.027.007.054.01.082.011.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.35.35 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a.912.912 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464Z" />
+                                </svg></i></a>
+                            <a target="_blank" href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="text-bi bi-instagram"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg></i></a>
+                        </div>
+                    </div>
+                    <p class="copyright">Adriana TINT © 2022 </p>
+                </div>
+            </footer>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov<4+1p"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
